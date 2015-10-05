@@ -2,6 +2,7 @@
 <head>
 	<link rel="stylesheet" type="stylesheet/css" href="css/main.css">
 	
+
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -15,23 +16,33 @@
       </button>
       <a class="navbar-brand" href="index.php">CC</a>
     </div>
-
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="contact.php">Contact</a></li>
-        
-          
-        
-      </ul>
-   
-      <ul class="nav navbar-nav navbar-right">
         <li><a href="login.php">Login</a></li>
 		<li><a href="register.php">Register</a></li>
       </ul>
     </div>
   </div>
-</nav>
+</nav><center><br>
+<h2>Welcome to Coin Clicker!</h2>
+	<div class="progress" style="width:420px; height:5px;">
+	  <div class="progress-bar" style="width:100%;"></div>
+	</div><br><br>
+	<div class="list-group">
+	  <a href="#" class="list-group-item" style="width:400px; position:absolute;left:5%;">
+	    <h4 class="list-group-item-heading">Why choose us?</h4><br>
+	    <p class="list-group-item-text">Coin Clicker is a website with diversity, which means that we have many different ways to earn money from. You can earn from clicking ads, making forms, doing captchas etc. Coin Clicker has also an extremely easy platform which provides a nice website where you as a member doesn't get confused.</p>
+	  </a><div class="list-group">
+	  <a href="#" class="list-group-item" style="width:400px; position:absolute;left:36%;">
+	    <h4 class="list-group-item-heading"></h4>
+	    <p class="list-group-item-text"></p>
+	  </a>
+	  <br><br><br>
+	  <br><br><br>
+	 
 
+</center>
 </body>
 </html>
