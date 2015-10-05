@@ -29,9 +29,25 @@
 	<h2>Register</h2>
 	<div class="progress" style="width:420px; height:3px;">
 	  <div class="progress-bar" style="width:100%;"></div>
-	</div><br><br><br>
+	</div><br><br>
 	<form method="POST" action="register.php">
+		<div class="form-group" style="width:300px;">
+		  <label class="control-label" for="inputDefault">Name</label>
+		  <input type="text" class="form-control" id="inputDefault"><br>
+		  <label class="control-label" for="inputDefault">Username</label>
+		  <input type="text" class="form-control" id="inputDefault"><br>
+		  <label class="control-label" for="inputDefault">Email</label>
+		  <input type="text" class="form-control" id="inputDefault"><br>
+		  <label class="control-label" for="inputDefault">Password</label>
+		  <input type="password" class="form-control" id="inputDefault"><br>
+		  <button type="reset" class="btn btn-default">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+		  <button type="submit" class="btn btn-primary">Submit</button>
 		
+		
+		
+		
+		
+		</div>
 		
 		
 	</form>
