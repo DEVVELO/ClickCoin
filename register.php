@@ -26,32 +26,33 @@
     </div>
   </div>
 </nav><center><br>
-	<h2>Register</h2>
-	<div class="progress" style="width:420px; height:3px;">
-	  <div class="progress-bar" style="width:100%;"></div>
-	</div><br><br>
-	<form method="POST" action="register.php">
-		<div class="form-group" style="width:300px;">
-		  <label class="control-label" for="inputDefault">Name</label>
-		  <input type="text" class="form-control" id="inputDefault"><br>
-		  <label class="control-label" for="inputDefault">Username</label>
-		  <input type="text" class="form-control" id="inputDefault"><br>
-		  <label class="control-label" for="inputDefault">Email</label>
-		  <input type="text" class="form-control" id="inputDefault"><br>
-		  <label class="control-label" for="inputDefault">Password</label>
-		  <input type="password" class="form-control" id="inputDefault"><br>
-		  <button type="reset" class="btn btn-default">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
-		  <button type="submit" class="btn btn-primary">Submit</button>
-		
-		
-		
-		
-		
-		</div>
+
+
+
+<div class="panel panel-success" style="width:800px;">
+  <div class="panel-heading">
+    <h3 class="panel-title">Register</h3>
+  </div>
+  <div class="panel-body">
+  	<form method="POST" action="register.php">
+  		<div class="form-group" style="width:300px;">
+  		  <label class="control-label" for="inputDefault">Name</label>
+  		  <input type="text" class="form-control" id="inputDefault"><br>
+  		  <label class="control-label" for="inputDefault">Username</label>
+  		  <input type="text" class="form-control" id="inputDefault"><br>
+  		  <label class="control-label" for="inputDefault">Email</label>
+  		  <input type="text" class="form-control" id="inputDefault"><br>
+  		  <label class="control-label" for="inputDefault">Password</label>
+  		  <input type="password" class="form-control" id="inputDefault"><br>
+  		  <button type="reset" class="btn btn-default">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  		  <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </div>
+</div>
 		
 		
 	</form>
-
-
+<br><br>
+<p class="text-muted" style="overflow:hidden;position:flex;bottom:0%;"><b>Copyright&copy; 2015 ClickCoin</b></p>
 </center>
 </html>
