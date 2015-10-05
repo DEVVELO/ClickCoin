@@ -1,3 +1,24 @@
+<?php
+include('connect.php');
+ob_start();
+session_start();
+
+function cleanInput($input) {
+ 
+  $search = array(
+    '@<script[^>]*?>.*?</script>@si',  
+    '@<[\/\!]*?[^<>]*?>@si',           
+    '@<style[^>]*?>.*?</style>@siU',   
+    '@<![\s\S]*?--[ \t\n\r]*>@'       
+  );
+ 
+    $output = preg_replace($search, '', $input);
+   
+    return $output;
+  }
+
+?>
+
 <html>
 <head>
 	
@@ -37,21 +58,32 @@
   	<form method="POST" action="register.php">
   		<div class="form-group" style="width:300px;">
   		  <label class="control-label" for="inputDefault">Name</label>
-  		  <input type="text" class="form-control" id="inputDefault"><br>
+  		  <input type="text" class="form-control" id="inputDefault" name="name"><br>
   		  <label class="control-label" for="inputDefault">Username</label>
-  		  <input type="text" class="form-control" id="inputDefault"><br>
+  		  <input type="text" class="form-control" id="inputDefault" name="username"><br>
   		  <label class="control-label" for="inputDefault">Email</label>
-  		  <input type="text" class="form-control" id="inputDefault"><br>
+  		  <input type="text" class="form-control" id="inputDefault" name="email"><br>
   		  <label class="control-label" for="inputDefault">Password</label>
-  		  <input type="password" class="form-control" id="inputDefault"><br>
+  		  <input type="password" class="form-control" id="inputDefault" name="password"><br>
   		  <button type="reset" class="btn btn-default">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
-  		  <button type="submit" class="btn btn-primary">Submit</button>
+  		  <button type="submit" class="btn btn-primary" name="submit">Submit</button>s
   </div>
   </div>
 </div>
 		
 		
 	</form>
+	<?php
+	$name = $_POST["name"];
+	$username = $_POST["username"];
+	$email = $_POST["email"];
+	$password = $_POST["password"];
+		
+	mysqli_query($con,"INSERT INTO user("name","username","email","password") VALUES");
+	
+	
+	
+	?>
 <br><br>
 
 <p class="text-muted" style="overflow:hidden;position:flex;bottom:0%;"><b>Copyright&copy; 2015 ClickCoin</b></p>

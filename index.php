@@ -64,7 +64,7 @@
 	    <a style="color:white;" href="news.php"><h3 class="panel-title">News</h3></a>
 	  </div>
 	  <div class="panel-body">
-		  <div class="panel panel-primary" style="width:270px;">
+		  <div class="panel panel-info" style="width:270px;">
 		    <div class="panel-heading" style="height:25;">
 		      <p style="font-size:9;">Admin</p>
 		    </div>
@@ -75,15 +75,9 @@
 	  </div>
 	</div><br><br><br><br><br><br><br><br><br>
 	<h4>Coin Clicker has <u>1000</u> members and we have paid our members <u>860$</u></h4>
-<br><br>
-<footer class="footer" style="height: 100px; background:grey;">
- 	<div class="progress" style="width:2000px; height:2px;">
- 	  <div class="progress-bar" style="width:100%;"></div>
- 	</div><br>
-<div class="container" align="center">
-<p class="text-muted">Copyrighted <b>
-Coin Clicker</b> 2015 | Coded With<font color="red" size="4"></font> by Oliver Weitman and Hugo Krishan</a></p>
-</div>
+<br><br><br>
+<p class="text-muted" style="overflow:hidden;position:flex;bottom:0%;"><b>Copyright&copy; 2015 ClickCoin</b></p>
+</center>
 </footer>
 </center>
 </body>

@@ -29,31 +29,6 @@
 	
 	
 	
-	
-	<div class="panel panel-primary" style="width:800px;">
-	  <div class="panel-heading">
-	    <h3 class="panel-title">Login</h3>
-	  </div>
-	  <div class="panel-body">
-   
-  
-   	<form method="POST" action="login.php">
-   		<div class="form-group" style="width:300px;">
-   		  <label class="control-label" for="inputDefault">Username</label>
-   		  <input type="text" class="form-control" id="inputDefault"><br>
-   		  <label class="control-label" for="inputDefault">Password</label>
-   		  <input type="password" class="form-control" id="inputDefault"><br>
-   		  <button type="reset" class="btn btn-default">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
-   		  <button type="submit" class="btn btn-primary">Submit</button>
-   		</div>
-   	</form>
-	  </div>
-	</div>
-	
-	
-	
-
-<br><br><br><br><br><br><br><br><br><br><br>
 
 <p class="text-muted" style="overflow:hidden;position:flex;bottom:0%;"><b>Copyright&copy; 2015 ClickCoin</b></p>
 </center>
