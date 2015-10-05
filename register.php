@@ -47,7 +47,7 @@
   		  <label class="control-label" for="inputDefault">Password</label>
   		  <input type="password" class="form-control" id="inputDefault" name="password"><br>
   		  <button type="reset" class="btn btn-default">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
-  		  <button type="submit" class="btn btn-primary" name="submit">Submit</button>s
+  		  <button type="submit" class="btn btn-primary" name="submit">Submit</button>
   </div>
   </div>
 </div>
