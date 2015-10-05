@@ -32,49 +32,63 @@
 	  <div class="progress-bar" style="width:100%;"></div>
 	</div><br><br>
 	<div class="list-group">
-	  <a href="register.php" class="list-group-item" style="width:400px; position:absolute;left:5%;">
+	  <a href="register.php" class="list-group-item" style="width:400px; position:absolute;left:11.5%;">
 	    <h4 class="list-group-item-heading">Why choose us?</h4><br>
 	    <p class="list-group-item-text">Click Coin is a website with diversity, which means that we have many different ways to earn money from. You can earn from clicking ads, making forms, doing captchas etc. Coin Clicker has also an extremely easy platform which provides a nice website where you as a member doesn't get confused.</p><br><p class="text-danger">Press this box inorder to register!</p>
 	  </a><div class="list-group">
-	  <a href="#" class="list-group-item" style="width:400px; position:absolute;left:36%;">
-	    <h4 class="list-group-item-heading">Hghuigefi</h4>
-	    <p class="list-group-item-text">fenwjkfnewfnioew</p>
-	  </a><a href="#" class="list-group-item" style="width:400px; position:absolute;left:67%;">
-	    <h4 class="list-group-item-heading">Hghuigefi</h4>
-	    <p class="list-group-item-text">fenwjkfnewfnioew</p>
+	  <a href="#" class="list-group-item" style="width:400px; position:absolute;left:37.5%;">
+    <h4 class="list-group-item-heading">Why choose us?</h4><br>
+    <p class="list-group-item-text">Click Coin is a website with diversity, which means that we have many different ways to earn money from. You can earn from clicking ads, making forms, doing captchas etc. Coin Clicker has also an extremely easy platform which provides a nice website where you as a member doesn't get confused.</p><br><p class="text-danger">Press this box inorder to register!</p>
+		</p>
+	  </a><a href="#" class="list-group-item" style="width:400px; position:absolute;left:63.5%;">
+    <h4 class="list-group-item-heading">Why choose us?</h4><br>
+    <p class="list-group-item-text">Click Coin is a website with diversity, which means that we have many different ways to earn money from. You can earn from clicking ads, making forms, doing captchas etc. Coin Clicker has also an extremely easy platform which provides a nice website where you as a member doesn't get confused.</p><br><p class="text-danger">Press this box inorder to register!</p>
 	  </a>
+	  
+	  
+	  
 	  <br><br><br><br><br><br><br><br><br><br><br><br>
- 	<div class="progress" style="width:1000px; height:3px;">
+ 	<div class="progress" style="width:77%; height:3px;">
  	  <div class="progress-bar" style="width:100%;"></div>
  	</div><br>
 	
-	<div class="panel panel-primary" style="width:300px; position:absolute;left:22%;">
+	<div class="panel panel-primary" style="width:20%; position:absolute;left:29.6%;">
 	  <div class="panel-heading">
-	    <h3 class="panel-title">Top Earners</h3>
+	    <h3 class="panel-title">Top Earners Today</h3>
 	  </div>
 	  <div class="panel-body">
-		  <ol>
-	    <li>Neger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000$</li>
-		<li>Afrikan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;900$</li>
-		<li>Hugo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;800$</li>
-	  </ol>
+
+		  <ol >
+	   
+
+	    
+		<li style="position:flex;left:1%;">User 1 has earned $1000   </li>
+		
+		<li style="position:flex;left:1%;">User 2 has earned $500  </li>
+		
+		<li style="position:flex;left:1%;">User 3 has earned $250  </li>
+		
+		<li style="position:flex;left:1%;">User 4 has earned $150  </li>
+		
+		<li style="position:flex;left:1%;">User 5 has earned $99  </li>
+	
+
+	  </div>
+	</div>
+	<div class="panel panel-success" style="width:20%; position:absolute;left:51.0%;">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">News</h3>
+	  </div>
+	  <div class="panel-body">
+	    <p>
+	We just launched our service, you may now use our application smothly and start earning your cash. We offer you an
+	amazing opportunity to earn money online by just clicking!</p>
+	
 	  </div>
 	</div>
 
-	<div class="panel panel-warning" style="width:300px; position:absolute;left:52%;">
-	  <div class="panel-heading">
-	    <a style="color:white;" href="news.php"><h3 class="panel-title">News</h3></a>
-	  </div>
-	  <div class="panel-body">
-		  <div class="panel panel-info" style="width:270px;">
-		    <div class="panel-heading" style="height:25;">
-		      <p style="font-size:9;">Admin</p>
-		    </div>
-		    <div class="panel-body">
-	 		<p style="font-size:9px;">Det var en stor jude och en liten jude som fick aids.</p>
-		    </div>
-		  </div>
-	  </div>
+	
+	
 	</div><br><br><br><br><br><br><br><br><br>
 	<h4>Coin Clicker has <u>1000</u> members and we have paid our members <u>860$</u></h4>
 <br><br><br>
