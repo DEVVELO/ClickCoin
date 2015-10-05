@@ -45,7 +45,18 @@
 	  <br><br><br><br><br><br><br><br><br><br><br><br>
  	<div class="progress" style="width:1000px; height:5px;">
  	  <div class="progress-bar" style="width:100%;"></div>
- 	</div>
+ 	</div><br>
+	
+	<div class="panel panel-primary" style="width:300px; position:absolute;left:22%;">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Top Earners</h3>
+	  </div>
+	  <div class="panel-body">
+	    <li>Neger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000$</li>
+		<li>Afrikan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;900$</li>
+		<li>Hugo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;800$</li>
+	  </div>
+	</div>
 
 </center>
 </body>
