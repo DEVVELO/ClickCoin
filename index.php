@@ -59,6 +59,26 @@
 	  </div>
 	</div>
 
+	<div class="panel panel-warning" style="width:300px; position:absolute;left:52%;">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">News</h3>
+	  </div>
+	  <div class="panel-body">
+		<p style="font-size:9px;">Posted by: Admin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+	    Det var en stor jude och en liten jude som fick aids.
+	  </div>
+	</div><br><br><br><br><br><br><br><br><br>
+	<h4>Coin Clicker has <u>1000</u> members and we have paid our members <u>860$</u></h4>
+<br><br>
+<footer class="footer" style="height: 100px; background:grey;">
+ 	<div class="progress" style="width:2000px; height:2px;">
+ 	  <div class="progress-bar" style="width:100%;"></div>
+ 	</div><br>
+<div class="container" align="center">
+<p class="text-muted">Copyrighted <b>
+Coin Clicker</b> 2015 | Coded With<font color="red" size="4"></font> by Oliver Weitman and Hugo Krishan</a></p>
+</div>
+</footer>
 </center>
 </body>
 </html>
