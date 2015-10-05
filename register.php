@@ -29,7 +29,7 @@
 
 
 
-<div class="panel panel-success" style="width:800px;">
+<div class="panel panel-primary" style="width:800px;">
   <div class="panel-heading">
     <h3 class="panel-title">Register</h3>
   </div>
@@ -53,6 +53,7 @@
 		
 	</form>
 <br><br>
+
 <p class="text-muted" style="overflow:hidden;position:flex;bottom:0%;"><b>Copyright&copy; 2015 ClickCoin</b></p>
 </center>
 </html>
