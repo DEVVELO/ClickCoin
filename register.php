@@ -1,23 +1,4 @@
-<?php
-include('connect.php');
-ob_start();
-session_start();
 
-function cleanInput($input) {
- 
-  $search = array(
-    '@<script[^>]*?>.*?</script>@si',  
-    '@<[\/\!]*?[^<>]*?>@si',           
-    '@<style[^>]*?>.*?</style>@siU',   
-    '@<![\s\S]*?--[ \t\n\r]*>@'       
-  );
- 
-    $output = preg_replace($search, '', $input);
-   
-    return $output;
-  }
-
-?>
 
 <html>
 <head>
@@ -73,17 +54,6 @@ function cleanInput($input) {
 		
 		
 	</form>
-	<?php
-	$name = $_POST["name"];
-	$username = $_POST["username"];
-	$email = $_POST["email"];
-	$password = $_POST["password"];
-		
-	mysqli_query($con,"INSERT INTO user("name","username","email","password") VALUES");
-	
-	
-	
-	?>
 <br><br>
 
 <p class="text-muted" style="overflow:hidden;position:flex;bottom:0%;"><b>Copyright&copy; 2015 ClickCoin</b></p>
