@@ -1,4 +1,24 @@
+<?php
+include('connect.php');
+ob_start();
+session_start();
 
+function cleanInput($input) {
+ 
+  $search = array(
+    '@<script[^>]*?>.*?</script>@si',  
+    '@<[\/\!]*?[^<>]*?>@si',           
+    '@<style[^>]*?>.*?</style>@siU',   
+    '@<![\s\S]*?--[ \t\n\r]*>@'       
+  );
+ 
+    $output = preg_replace($search, '', $input);
+   
+    return $output;
+  }
+	
+	
+?>
 
 <html>
 <head>
@@ -54,6 +74,26 @@
 		
 		
 	</form>
+	<?php
+	$name = $_POST["name"];
+	$username = $_POST["username"];
+	$email = $_POST["email"];
+	$password = $_POST["password"];
+	
+	$check_user = mysqli_query($con,"SELECT * FROM coinclick_users WHERE username='$username' AND email='$email'");
+	$num_e_user = mysqli_num_rows($check_user);
+	
+	if($num_e_user == 0){
+	
+	mysqli_query($con,"INSERT INTO coinclick_users(name,username,email,password) VALUES('$name','$username','$email','$password')");
+		
+}else{
+	
+	echo "You need to choose another username or email";
+	
+}
+		
+	?>
 <br><br>
 
 <p class="text-muted" style="overflow:hidden;position:flex;bottom:0%;"><b>Copyright&copy; 2015 ClickCoin</b></p>

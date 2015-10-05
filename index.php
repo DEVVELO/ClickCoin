@@ -36,11 +36,11 @@
 	    <h4 class="list-group-item-heading">Why choose us?</h4><br>
 	    <p class="list-group-item-text">Click Coin is a website with diversity, which means that we have many different ways to earn money from. You can earn from clicking ads, making forms, doing captchas etc. Coin Clicker has also an extremely easy platform which provides a nice website where you as a member doesn't get confused.</p><br><p class="text-danger">Press this box inorder to register!</p>
 	  </a><div class="list-group">
-	  <a href="#" class="list-group-item" style="width:400px; position:absolute;left:36%;">
+	  <a href="register.php" class="list-group-item" style="width:400px; position:absolute;left:36%;">
     <h4 class="list-group-item-heading">Why choose us?</h4><br>
     <p class="list-group-item-text">Click Coin is a website with diversity, which means that we have many different ways to earn money from. You can earn from clicking ads, making forms, doing captchas etc. Coin Clicker has also an extremely easy platform which provides a nice website where you as a member doesn't get confused.</p><br><p class="text-danger">Press this box inorder to register!</p>
 		</p>
-	  </a><a href="#" class="list-group-item" style="width:400px; position:absolute;left:66%;">
+	  </a><a href="register.php" class="list-group-item" style="width:400px; position:absolute;left:66%;">
     <h4 class="list-group-item-heading">Why choose us?</h4><br>
     <p class="list-group-item-text">Click Coin is a website with diversity, which means that we have many different ways to earn money from. You can earn from clicking ads, making forms, doing captchas etc. Coin Clicker has also an extremely easy platform which provides a nice website where you as a member doesn't get confused.</p><br><p class="text-danger">Press this box inorder to register!</p>
 	  </a>
