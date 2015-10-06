@@ -1,3 +1,29 @@
+<?php
+
+
+include('connect.php');
+ob_start();
+session_start();
+
+function cleanInput($input) {
+ 
+  $search = array(
+    '@<script[^>]*?>.*?</script>@si',  
+    '@<[\/\!]*?[^<>]*?>@si',           
+    '@<style[^>]*?>.*?</style>@siU',   
+    '@<![\s\S]*?--[ \t\n\r]*>@'       
+  );
+ 
+    $output = preg_replace($search, '', $input);
+   
+    return $output;
+  }
+	
+	
+
+?>
+
+
 <html>
 <head>
 	
@@ -47,13 +73,40 @@
    		  <button type="submit" class="btn btn-primary">Submit</button>
    		</div>
    	</form>
+	
+	
 	  </div>
 	</div>
 	
 
 	
+<?php
 
+    if(isset($_POST["submit"])){
+        $username = $_POST["username"];
+        
+        $var = trim(cleanInput(mysqli_real_escape_string($con,$var)));
+$var = htmlspecialchars($var);
+        
+        $get_data = mysqli_query($con,"SELECT * FROM users WHERE username='$username' AND password='$password'");
+        $user_exist = mysqli_num_rows($get_data);
+        
+        if($user_exist == 0){
+            
+            echo "<br>Wrong login details";
+        }else{
+        
+        
+        
+        
+        }
+    }
+    
+
+
+?>
 <br><br><br><br><br><br><br><br><br><br><br>
+
 
 <p class="text-muted" style="overflow:hidden;position:flex;bottom:0%;"><b>Copyright&copy; 2015 ClickCoin</b></p>
 </center>
