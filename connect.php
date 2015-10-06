@@ -1,5 +1,4 @@
 <?php
 	
-$con = mysqli_connect("localhost","root@localhost") or die("<br>Sorry but the connection to the database does not work at the momen... Try again later :)");
-	
-?>
+$con = mysqli_connect("localhost","root","root","coinclick") OR die("Could not connect to the database");
+?>s
