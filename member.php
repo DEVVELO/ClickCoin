@@ -26,7 +26,7 @@
     </div>
   </div>
 </nav><center><br>
-	<p style="position:absolute;left:65%;top:5%;">Balance: 21 Points</p>
+	
 	
 	
 
