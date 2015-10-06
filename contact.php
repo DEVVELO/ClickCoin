@@ -26,13 +26,9 @@
     </div>
   </div>
 </nav><center><br>
-	<h2>Contact</h2>
-	<div class="progress" style="width:420px; height:3px;">
-	  <div class="progress-bar" style="width:100%;"></div>
-	</div><br><br>
 	<div class="panel panel-primary" style="width:650px;">
 	  <div class="panel-heading">
-	    <h3 class="panel-title">Information</h3>
+	    <h3 class="panel-title">Contact</h3>
 	  </div>
 	  <div class="panel-body" style="width:380px;">
 	   <div class="form-group">
@@ -43,15 +39,16 @@
 	     <label class="control-label" for="inputDefault">Email</label>
 	     <input type="text" class="form-control" id="inputDefault">
 	   </div><br>
-	   <div class="form-group">
-	         <label for="textArea" class="col-lg-2 control-label">Message</label>
-	         <div class="col-lg-10">
+	   <label class="control-label" for="inputDefault">Message</label>
+	   <div class="form-group"><br>
+		   
+	         <div class="col-lg-10" style="position:absolute;left:37%;top:51.5%; width:380px;">
 	           <textarea class="form-control" rows="3" id="textArea"></textarea>
 	           
 	         </div>
 	       </div>
 	   
-	   
+<br><br><br><br><button type="submit" name="submit" class="btn btn-primary">Send!</button>
 	   
 	  </div>
 	</div>
