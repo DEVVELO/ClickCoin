@@ -18,10 +18,13 @@
       <ul class="nav navbar-nav">
         <li><a href="member.php">User Home <span class="sr-only">(current)</span></a></li>
         <li><a href="contact.php">Support</a></li>
-		<li><a href="contact.php">Withdraw</a></li>
+		<li><a href="withdraw.php">Withdraw</a></li>
+		<li><a href="news.php">News</a></li>
       </ul>
 	  <ul class="nav navbar-nav navbar-right">
+		  <li><a href="#">Balance: 244 Points</a></li>
 		<li><a href="logout.php">Logout</a></li>
+
 	      </ul>
     </div>
   </div>
