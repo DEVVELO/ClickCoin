@@ -25,7 +25,7 @@
 		<li><a href="register.php">Register</a></li>
 	      </ul>
     </div>
-  </div>
+  </div> 
 </nav><center style="overflow:hidden;"><br>
 <?php
 //Processing data area
