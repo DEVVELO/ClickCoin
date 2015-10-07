@@ -2,6 +2,10 @@
 <head>
 	
 	<link rel="stylesheet" type="stylesheet/css" href="css/main.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	
 </head>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -34,10 +38,27 @@
 	  <div class="progress-bar" style="width:150%;"></div>
 	</div>
 	<br><br>
-	<div class="btn-group btn-group-justified" style="width:900px;">
-	  <a href="#" class="btn btn-danger">Captcha</a>
-	  <a href="#" class="btn btn-success">Middle</a>
-	  <a href="#" class="btn btn-primary">Right</a>
+	    <div class="btn-group">
+	      <a href="#" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" style="width:250px;">
+	        Captcha
+	        <span class="caret"></span>
+	      </a>
+	      <ul class="dropdown-menu">
+	        <li><a href="#">Solve Media</a></li>
+	       </ul>
+	    </div>
+	  </div>
+	</div>
+	    <div class="btn-group">
+	      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="width:250px;">
+	       Offerwalls
+	        <span class="caret"></span>
+	      </a>
+	      <ul class="dropdown-menu">
+	        <li><a href="#">PTC Wall</a></li>
+	       </ul>
+	    </div>
+	  </div>
 	</div>
 	<div class="panel panel-default" style="position:absolute;left:1%;top:11%;">
 		<div class="panel-heading">My Balance</div>

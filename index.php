@@ -27,9 +27,41 @@
     </div>
   </div>
 </nav><center><br>
+<<<<<<< Updated upstream
 <?php
 //Processing data area
 	
+=======
+<h2>Welcome to Click Coin!</h2>
+	<div class="progress" style="width:420px; height:3px;">
+	  <div class="progress-bar" style="width:100%;"></div>
+	</div><br><br>
+	
+	<div class="panel panel-primary" style="width:500px;">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Panel danger</h3>
+	  </div>
+	  <div class="panel-body">
+	    Panel content
+	  </div>
+	</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s
+	<div class="panel panel-primary" style="width:500px;">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Panel danger</h3>
+	  </div>
+	  <div class="panel-body">
+	    Panel content
+	  </div>
+	</div>
+	
+	  
+	  
+	  
+	  <br><br><br>
+ 	<div class="progress" style="width:77%; height:3px;">
+ 	  <div class="progress-bar" style="width:100%;"></div>
+ 	</div><br>
+>>>>>>> Stashed changes
 	
 ?>
 <h1>Welcome to 
@@ -70,6 +102,7 @@ div#bar1{
 <br>
 
 
+<<<<<<< Updated upstream
 <br>
 CoinClaimer is a free service where you earn points for various activities. You can earn 24 coins per hour just from filling in a captcha. In the future there will be even more ways to earn such as link shrinking and more that we are working to integrate. You may exchange your points for a variety of different coins. We currently support 9 different coins, we are always working on adding more coins and more features to our site. Stay tuned for more!
 <br>
@@ -115,6 +148,17 @@ div#bar{
 Banner ad space<br><br><br>
 <h4>We have 3 users and 0 paid withdraws</h4>
 </div>
+=======
+	
+	
+	</div><br><br><br><br><br><br><br><br><br><br><br>
+	<h4>Coin Clicker has <u>1000</u> members and we have paid our members <u>860$</u></h4>
+<br><br><br>
+<p class="text-muted" style="overflow:hidden;position:flex;bottom:0%;"><b>Copyright&copy; 2015 ClickCoin</b></p>
+</center>
+</footer>
+</center>
+>>>>>>> Stashed changes
 </body>
 <div id="br">
 </div>
