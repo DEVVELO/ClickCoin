@@ -1,3 +1,6 @@
+
+
+
 <html>
 <head>
 	
@@ -44,7 +47,10 @@
 	        <span class="caret"></span>
 	      </a>
 	      <ul class="dropdown-menu">
-	        <li><a href="#">Solve Media</a></li>
+	        <li><a href="claim1.php">Claim 1</a></li>
+			<li><a href="claim2.php">Claim 2</a></li>
+			<li><a href="claim3.php">Claim 3</a></li>
+			<li><a href="claim4.php">Claim 4</a></li>
 	       </ul>
 	    </div>
 	  </div>
@@ -55,20 +61,24 @@
 	        <span class="caret"></span>
 	      </a>
 	      <ul class="dropdown-menu">
-	        <li><a href="#">PTC Wall</a></li>
+	        <li><a href="ptcwall.php">PTC Wall</a></li>
 	       </ul>
 	    </div>
 	  </div>
 	</div>
-	<div class="panel panel-default" style="position:absolute;left:1%;top:11%;">
-		<div class="panel-heading">My Balance</div>
-	  <div class="panel-body">
-		Points: 244<br>
-		Dollar: 0.04$<br>
-		Bitcoins: 0.00002B<br>
-		Yatashi: 1000.2Y
-	  </div>
-	</div>
+	<br>
+	<br><br><br>
+	<h3>User Stats</h3>
+	<br>
+	<tbody>
+	    <tr>
+	      <td></td>
+	      <td>User Balance: 100$</td>
+	      <td>Captchas done: 1234</td>
+	      <td>Offerwalls made: 12342</td>
+	    </tr>
+		
+
 	
 <br><br><br><br><br><br><br>
 <p class="text-muted" style="overflow:hidden;position:flex;bottom:0%;"><b>Copyright&copy; 2015 ClickCoin</b></p>
