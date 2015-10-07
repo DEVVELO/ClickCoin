@@ -73,48 +73,27 @@ $password = htmlspecialchars($password);
 				$status = $get_user_data['status'];
 			
 			}
-
 	        $user_exist = mysqli_num_rows($get_data);
-       
-	   
 			if(!$user_exist == 1){
-			
 				echo '<div class="alert alert-dismissible alert-danger" style="width:600px;">
- 
 		  <strong>Error!</strong> Wrong login details
 		</div>';
-			
 			}elseif($status == 0){
-			
 				echo '<div class="alert alert-dismissible alert-danger" style="width:600px;">
- 
 		  <strong>Error!</strong> User is not activated, click on the link in the email we sent you!
 		</div>';
-			
 			}elseif($status == 2){
-			
 				echo '<div class="alert alert-dismissible alert-danger" style="width:600px;">
- 
 		  <strong>Error!</strong> User banned
 		</div>';
-			
 			}else{
 				echo '<div class="alert alert-dismissible alert-success" style="width:600px;">
- 
 		  <strong>Success!</strong> Now session variables will be set and page will redirect to members dashboard.
 		</div>';
-			
+		header("Location: member.php");
 			}
-	   
-		
-    
 		}
-		
-		
 	?>
-	
-	
-	
 	<div class="panel panel-primary" style="width:800px;">
 	  <div class="panel-heading">
 	    <h3 class="panel-title">Login</h3>
