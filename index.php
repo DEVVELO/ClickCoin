@@ -26,8 +26,12 @@
 	      </ul>
     </div>
   </div>
+<<<<<<< HEAD
 </nav><center><br>
 <<<<<<< Updated upstream
+=======
+</nav><center style="overflow:hidden;"><br>
+>>>>>>> origin/master
 <?php
 //Processing data area
 	
