@@ -26,7 +26,7 @@
 	      </ul>
     </div>
   </div>
-</nav><center><br>
+</nav><center style="overflow:hidden;"><br>
 <?php
 //Processing data area
 	
